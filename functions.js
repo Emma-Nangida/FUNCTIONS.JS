@@ -17,8 +17,26 @@ function addItems(items,itemsQuantities){
   addItems(items,itemsQuantities)
 
   //4.Write a function to update the stock quantity of an existing item.
-
+ function updating(w,z){
+ let i=items.indexOf(w)
+ if (i===-1){
+	console.log("not available")
+ }
+ itemsQuantities.push(z)
+ console.log(itemsQuantities)
+}
+updating("mango",8)
+ 
 //5.Write a function to calculate the total number of items in the inventory.
+// function totalNumber(){
+// 	let total=0
+// 	for (let i=0;i>items.length;i++){
+// 		total+=items[i];
+
+// 	}
+// 	console.log(total);
+// }
+// totalItems()
 //6.Write a function to find the item with the lowest stock quantity.
 
 
