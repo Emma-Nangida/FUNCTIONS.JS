@@ -28,15 +28,22 @@ function addItems(items,itemsQuantities){
 updating("mango",8)
  
 //5.Write a function to calculate the total number of items in the inventory.
-// function totalNumber(){
-// 	let total=0
-// 	for (let i=0;i>items.length;i++){
-// 		total+=items[i];
-
-// 	}
-// 	console.log(total);
-// }
-// totalItems()
+function totalNumber(){
+	let total=0;
+	for (let i=0;i<itemsQuantities.length;i++){
+		total+=itemsQuantities[i];
+		
+	}
+	console.log(total);
+}
+  totalNumber()
 //6.Write a function to find the item with the lowest stock quantity.
+// function lowest_quantity(){
+// 	let lowest_quantity=Math.min(...itemsQuantities)
+// 	// itemsQuantities.find(Math.min)
+// 	console.log(lowest_quantity)
+
+// }
+// itemsQuantities()
 
 
